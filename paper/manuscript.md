@@ -427,7 +427,7 @@ Illich, I. (1971). Deschooling Society. Harper & Row.
 Illich, I. (1973). Tools for Conviviality. Harper & Row.
 Kuhn, T. S. (1962). The Structure of Scientific Revolutions. University of Chicago Press.
 Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. Viking.
-Shanahan, M. (2023). Talking About Large Language Models. Communications of the ACM, 67(2), 68-79. [verify: CACM volume/issue details]
+Shanahan, M. (2024). Talking About Large Language Models. Communications of the ACM, 67(2), 68-79. [verify: CACM volume/issue details]
 Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., ... & Zhou, D. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. Advances in Neural Information Processing Systems (NeurIPS), 35, 24824-24837.
 White, J., Fu, Q., Hays, S., Sandborn, M., Olea, C., Gilbert, H., ... & Schmidt, D. C. (2023). A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT. arXiv:2302.11382. [verify: arXiv number]
 Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press.
