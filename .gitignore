@@ -2,3 +2,4 @@
 *.swp
 *~
 docs/superpowers/
+paper/md_to_pdf.py
