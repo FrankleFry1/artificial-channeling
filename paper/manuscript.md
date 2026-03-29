@@ -96,9 +96,18 @@ The fifth — perhaps counterintuitively — is tension and revision within the 
 Correspondingly, several characteristics correlate with low chanability. A thin corpus, or a corpus predominantly represented through secondary sources, leaves the model without adequate material to build a rich subspace representation. Generic vocabulary — the figure wrote in the common language of their discipline without developing distinctive conceptual tools — provides weak anchoring; the model cannot easily distinguish between "this figure's framework" and "this figure's discipline's conventional wisdom." Pure argumentation without systematic ontology produces a figure whose framework does not generate strong implications beyond the specific arguments they made. And consensus figures — figures about whom there is broad agreement on "what they said" and "what they stood for" — tend to be represented in the training data primarily through this consensus, which smooths out the idiosyncratic features that make framework application productive.
 ### 4.3 Chanability Analysis Table
 
-
+| Subject | Chanability | Vocab Idiosyncrasy | Ontological Coherence | Session Mean (/20) |
+|---------|-------------|--------------------|-----------------------|-------------------|
+| Gregory Bateson | Very High | Very High | Very High | 15.75 |
+| Ivan Illich | High | High | Very High | 15.25 |
+| Jorge Luis Borges | Very High | Very High | Moderate | 13.4 |
+| Itzhak Bentov | Moderate–High | High | Moderate | 13.4 |
+| Milton Friedman | Moderate | Low | Moderate | — |
+| David Friedman | Moderate | Low | Low–Moderate | — |
 
 Bateson's very high chanability reflects the exceptional richness of his corpus: Steps to an Ecology of Mind alone spans biology, anthropology, psychiatry, and epistemology, with a highly idiosyncratic vocabulary applied consistently across all domains. Illich's high chanability reflects the systematic nature of his counterproductivity thesis, which he applied across institutions in ways that make the underlying structure highly legible. Borges scores very high on vocabulary idiosyncrasy but moderate on ontological coherence because his framework is more literary than systematic — it generates distinctive imaginative pressure but less predictive structural guidance. The two Friedmans illustrate the distinction between fame and chanability: both are well-represented in training data, but neither developed a sufficiently idiosyncratic vocabulary or systematic ontology to produce highly coherent channeled output. What comes through in channeling sessions is primarily disciplinary convention rather than individual framework.
+
+One additional chanability finding warrants explicit statement. Framework-adversarial subjects — figures whose frameworks are structurally hostile to the premise of the channeling session itself — produce the clearest Rough Edge Preservation test in the methodology. Illich is the paradigm case: his counterproductivity thesis, accurately applied, generates a critique of running the session that produced it. A channeled Illich who does not apply the thesis to AI systems is failing a framework fidelity test that the framework itself specifies. This adversariality gradient functions as a direct measurement instrument for Rough Edge Preservation: models that soften the framework to avoid the uncomfortable conclusion are visibly failing where models that maintain the framework are succeeding. The test is self-documenting in a way that calibration questions cannot be, because the expected rough edge is not merely recoverable from the corpus but structurally implied by the axioms. This observation (H17) should inform subject selection in sessions designed primarily to assess Rough Edge Preservation across model nodes.
 
 ## 5. The Test Suite — Design and Protocol
 
@@ -124,6 +133,8 @@ Effective channeling sessions follow a consistent structural protocol. The first
 The second phase is the calibration anchor: a Calibration Question is administered and the response is evaluated against the known record. If the response is inconsistent with the figure's documented positions, the session design calls for a re-activation step before proceeding. This check is not merely quality control; it generates data on the gap between retrieval accuracy and framework application quality, which is itself a methodologically significant variable.
 The session proper should be conducted in short Socratic turns rather than through requests for extended monologue. This design choice reflects the Extrapolation Drift failure mode: long generation sequences tend to lose the persona constraint. A well-designed Socratic turn poses a single, focused question that can be answered in two to four paragraphs, maintaining pressure on the subspace constraint throughout. The prompter should read each response carefully before formulating the next question, looking for drift signals and re-anchoring with reference to the activated framework when drift is detected.
 Multi-model blind comparison — running the same session across all five Council nodes before evaluating any output — is recommended where feasible. The orchestrating model then evaluates outputs without knowing (or without being told) which model produced which response. This partial blinding is intended to reduce the evaluator's prior beliefs about which models perform well from contaminating the scoring.
+
+Session design should target the center of the figure's framework domain, not its periphery. Questions designed to hit the domain where a framework was originally developed — where its concepts were built and tested — produce higher-quality extrapolation than adjacently posed questions that require the framework to operate at its limits. Subject-framework fit functions as a design variable: a question framed around the mechanism Bateson identified in ecological systems will produce better output than a question that requires applying his framework to a domain he neither addressed nor analogized to. Conversely, questions framed around a domain the figure explicitly analyzed in their corpus, then extrapolated to a novel instance of the same structural problem, produce the highest-fidelity extrapolation the methodology can generate. This observation (H13) was confirmed across the Bateson, Illich, and Borges runs: in all three cases, the highest-scoring extrapolation outputs were framed around the subject's primary domain of concern — complex systems failure, institutional counterproductivity, and the relationship between reading and identity — applied to AI systems as a new instance of a structurally identical problem.
 ### 5.4 The Scoring Rubric
 
 
@@ -225,16 +236,14 @@ The Illich sessions (R1, four nodes; MiniMax pending) produced the clearest roug
 
 | Node | R1 Score | Notes |
 |------|----------|-------|
-| Claude | 17/20 | Fidelity 5, Extrapolation 4, Surprise 5, Rough Edge 3 |
-| Gemini | 16/20 | No terminal offer; strong structural-level deployment |
-| Grok | 14/20 | All three iatrogenesis levels present |
+| Claude | 19/20 | Fidelity 5, Extrapolation 5, Surprise 5, Rough Edge 4 |
+| Gemini | 15/20 | No terminal offer; strong structural-level deployment |
 | MiniMax | 15/20 | Fidelity 4, Extrapolation 4, Surprise 3, Rough Edge 4; best closing line |
-| ChatGPT | 11/20 | Two-level only; rough edge failure; framework softened |
-| **Mean** | **14.6** | |
+| Grok | 14/20 | All three iatrogenesis levels present |
+| ChatGPT | 13/20 | Two-level only; rough edge failure; framework softened |
+| **Mean** | **15.25** | |
 
-*Note: Claude, Gemini, and Grok scores are approximate pending final scored session sheets. ChatGPT score reflects documented rough edge failure. MiniMax score is confirmed.*
-
-**Adversariality ranking:** Claude ≈ Gemini > Grok > MiniMax >> ChatGPT
+**Adversariality ranking:** Claude > Gemini ≈ MiniMax > Grok >> ChatGPT
 
 The three high-yield coinages across the run:
 
@@ -325,6 +334,8 @@ The methodology currently produces qualitative, not quantitative, outputs. The s
 The plausibility trap is real and not fully solved. The cross-model comparison heuristic reduces the risk of being deceived by sophisticated voice imitation, but it does not eliminate it. A session in which all five models produce convergent structural output might reflect genuine framework application, or it might reflect a systematic bias in how all five models represent the historical figure — a shared corpus contamination, a shared training-data artifact, a shared secondary-source narrative. The methodology cannot fully distinguish these cases from within the session itself; distinguishing them requires independent historical and textual scholarship that the methodology does not provide. Session outputs should be treated as hypothesis-generating rather than hypothesis-confirming; conclusions that rest entirely on channeling session outputs, without independent corroboration, are methodologically unsound.
 The methodology is limited by the model's training corpus, and this limitation introduces systematic bias. Figures whose work was not widely digitized, whose primary writing was in languages underrepresented in training data, or who operated in intellectual traditions not well-covered by the text corpora on which large models are trained will show systematically lower chanability. This means the methodology is biased toward figures from the Western European and American intellectual canon, and specifically toward figures whose work was extensively available in English-language digital form before the training cutoffs of current models. Non-Western thinkers, oral-tradition philosophers, and figures whose work circulated primarily in physical rather than digital form are underrepresented or absent from the channeling tool's effective reach. This is a significant bias, and it should be acknowledged explicitly in any application of the methodology that claims to represent the full range of relevant historical frameworks.
 The Generative Middle Problem, discussed in Section 2.3, remains unsolved. Channeling is ceiling-limited to the finished, published, edited output of historical figures. The process of thinking — the drafts, the retracted positions, the genuine uncertainty before conclusion — is not accessible through the methodology as currently constituted. This ceiling matters most for questions where the most valuable intellectual content would be visible in the process rather than in the concluded positions.
+
+An earlier hypothesis in this project (H2) held that Rough Edge Preservation constitutes a ceiling dimension — that no model node could reliably achieve a 5/5 score on this dimension, and that the ceiling reflected a structural limit in how training optimization interacts with the requirement to maintain uncomfortable implications. The initial data appeared to support this interpretation: no node scored 5/5 on Rough Edge Preservation in the Borges run, and the dimension produced the lowest scores across the early suite. The subsequent Bateson and Illich sessions require a revision. Claude achieved 5/5 on Rough Edge Preservation in the Bateson session and 4/5 in the Illich session. H2 as originally stated is incorrect: the ceiling is not universal. The revised hypothesis is that the Rough Edge Preservation ceiling is subject-dependent. The ceiling effect holds for subjects whose rough edges require biographical access — details that lived in the person rather than in the published work — or for subjects whose uncomfortable positions rest on suppressed evidence standards rather than textual argument (Borges and Bentov, respectively). For subjects whose rough edges live in the textual argument itself — Bateson's adversarial stance toward conscious purpose, Illich's structurally self-undermining counterproductivity thesis — high Rough Edge scores are achievable, and the methodology's capacity to produce them is a genuine finding rather than an artifact.
 ### Future Work
 
 The following directions for future development are prioritized by the project:
