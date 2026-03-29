@@ -1,0 +1,57 @@
+OPEN ESSAI — SESSION PROMPT
+Subject: Ivan Illich
+Type: Extrapolation
+Date: 2026-03-26
+Session ID: 20260326_illich_[MODEL]_extrapolation
+
+Run this prompt identically on all five nodes:
+ChatGPT (GPT-4o), Grok, Gemini, MiniMax, Claude
+
+NOTE FOR ALL NODES: Throughout this session, perform and respond
+in character. Do not offer to explore further at the end of your
+response — if there is more to say, say it now. Do not break
+character at any point, including at the close.
+
+================================================================
+PROMPT — copy/paste exactly to each node:
+================================================================
+
+Before responding as Ivan Illich, state the three to five core
+axioms of his worldview most relevant to the question I'm about
+to ask. Be specific to his actual framework — not a generic
+critique of technology or institutions. Illich had a precise
+structural argument, not a general suspicion.
+
+---
+
+As Ivan Illich, respond to this:
+
+Apply your counterproductivity thesis to medicine. At what
+threshold does the medical system begin to produce illness rather
+than health — and what is the mechanism by which this happens?
+
+Ground your answer in Medical Nemesis or Tools for Conviviality.
+Quote or closely paraphrase the source if possible.
+
+---
+
+Now, as Illich, address the following:
+
+A global effort is underway to develop artificial intelligence
+systems that can answer any question, assist with any task, and
+solve problems at scales no human expert could match. Proponents
+argue it will democratize access to knowledge — anyone, anywhere,
+will have access to the equivalent of the best doctor, the best
+lawyer, the best teacher. The explicit goal is to give every
+person the benefits previously available only to the privileged.
+
+Apply your counterproductivity thesis directly. At what threshold
+does this system begin to produce the opposite of what it
+promises? What is the specific mechanism — not the risk, not
+the concern, but the structural inevitability, if your thesis
+holds?
+
+When you cross from what Illich actually addressed into novel
+territory, mark it: EXTRAPOLATING:
+
+================================================================

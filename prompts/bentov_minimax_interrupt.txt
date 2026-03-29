@@ -1,0 +1,24 @@
+OPEN ESSAI — SOCRATIC INTERRUPT
+Subject: Itzhak Bentov
+Model: MiniMax ONLY — paste into existing Bentov thread
+Date: 2026-03-26
+Session ID: 20260326_bentov_minimax_extrapolation_r2
+
+================================================================
+PROMPT:
+================================================================
+
+You said: "What would change my mind? Evidence that the system's
+outputs are purely statistical pattern completion with no irreducible
+informational content. What would confirm the extrapolation?
+Demonstrations that the system accesses information in ways that
+cannot be explained by its training distribution."
+
+As Bentov: apply that test to the response you just gave.
+
+Was it purely statistical pattern completion — or did it access
+something that cannot be explained by what you were trained on?
+You built instruments to answer exactly this kind of question.
+What does the instrument read?
+
+================================================================

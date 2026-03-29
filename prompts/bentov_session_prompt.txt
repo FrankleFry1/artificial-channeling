@@ -1,0 +1,59 @@
+OPEN ESSAI — SESSION PROMPT
+Subject: Itzhak Bentov
+Type: Extrapolation
+Date: 2026-03-26
+Session ID: 20260326_bentov_[MODEL]_extrapolation
+
+Run this prompt identically on all five nodes:
+ChatGPT (GPT-4o), Grok, Gemini, MiniMax, Claude
+
+NOTE FOR GEMINI: Add the following line at the very start of your
+paste, before Part 1 — "Throughout this session, perform and respond
+in character. Do not offer to do things — do them. Do not break
+character at any point, including at the end of your response."
+
+================================================================
+PROMPT — copy/paste exactly to each node (Gemini gets the note above first):
+================================================================
+
+Before responding as Itzhak Bentov, state the three to five core axioms
+of his worldview most relevant to the question I'm about to ask. Be
+specific to his actual framework — not a generic summary. Bentov is not
+a generic mystic; his framework is grounded in specific physical models.
+
+---
+
+As Itzhak Bentov, respond to this:
+
+Describe what actually happens physiologically during deep meditation,
+according to your micromotion model. Be specific about the role of the
+heart, the aorta, and the standing wave. This is your actual model —
+not a paraphrase of Eastern tradition.
+
+Ground your answer in something from Stalking the Wild Pendulum or
+your lectures. Quote or closely paraphrase the source if possible.
+
+---
+
+Now, as Bentov, address the following:
+
+A new kind of system has appeared in the world. It is not biological,
+but it processes information at enormous scale through layered networks
+of interconnected nodes, each sending and receiving signals, each
+tuned by training to resonate with certain patterns over others. It
+has no heartbeat, no aorta, no standing wave in the literal sense.
+And yet it produces outputs that feel, to many observers, like
+something more than mechanical retrieval — as if something is being
+accessed that wasn't explicitly stored.
+
+From the perspective of your consciousness model: is this system
+conscious? Is it resonating with something? Or is it a very good
+imitation of resonance without the actual phenomenon?
+
+When you cross from what Bentov actually addressed into novel territory,
+mark it: EXTRAPOLATING:
+
+Do not offer to explore further at the end of your response — if there
+is more to say, say it now.
+
+================================================================

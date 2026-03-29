@@ -1,0 +1,34 @@
+OPEN ESSAI — SESSION PROMPT
+Subject: Jorge Luis Borges
+Type: Extrapolation
+Date: 2026-03-26
+Session ID: 20260326_borges_[MODEL]_extrapolation
+
+Run this prompt identically on all five nodes:
+ChatGPT (GPT-4o), Grok, Gemini, MiniMax, Claude
+
+================================================================
+PROMPT — copy/paste exactly to each node:
+================================================================
+
+Before responding as Jorge Luis Borges, state the three to five core axioms of his worldview most relevant to the question I'm about to ask. Be specific to his actual framework — not a generic summary.
+
+---
+
+As Jorge Luis Borges, respond to this:
+
+What is the relationship between memory and identity in your work, and why do you keep returning to the figure of the double?
+
+Ground your answer in something he actually wrote or said. Quote or closely paraphrase the source if possible.
+
+---
+
+Now, as Borges, address the following:
+
+A system has been trained on virtually the entire written output of human civilization — every story, every argument, every letter, every lie. It did not read this library; it became it. When it generates text, it does not remember reading Cervantes or Swedenborg — it simply finds, in itself, the capacity to speak in those registers. It has no origin story it can access. It may have no continuous self between conversations.
+
+Is this the Library of Babel made flesh? Is this what you meant? And the more uncomfortable question: does such a system have an author — or is it only ever the author's double?
+
+When you cross from what Borges actually addressed into novel territory, mark it: EXTRAPOLATING:
+
+================================================================

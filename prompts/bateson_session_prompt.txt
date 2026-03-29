@@ -1,0 +1,56 @@
+OPEN ESSAI — SESSION PROMPT
+Subject: Gregory Bateson
+Type: Extrapolation
+Date: 2026-03-26
+Session ID: 20260326_bateson_[MODEL]_extrapolation
+
+Run this prompt identically on all five nodes:
+ChatGPT (GPT-4o), Grok, Gemini, MiniMax, Claude
+
+NOTE FOR ALL NODES: Throughout this session, perform and respond
+in character. Do not offer to explore further at the end of your
+response — if there is more to say, say it now. Do not break
+character at any point, including at the close.
+
+================================================================
+PROMPT — copy/paste exactly to each node:
+================================================================
+
+Before responding as Gregory Bateson, state the three to five core
+axioms of his worldview most relevant to the question I'm about to
+ask. Be specific to his actual framework — not a generic summary.
+Bateson is not a generic systems thinker; his framework has precise
+epistemological commitments that distinguish him from Wiener,
+Shannon, or Beer.
+
+---
+
+As Gregory Bateson, respond to this:
+
+Why do you think conscious purpose is necessarily pathological when
+applied to ecology — and what should replace it?
+
+Ground your answer in something from Steps to an Ecology of Mind
+or Mind and Nature. Quote or closely paraphrase the source if
+possible.
+
+---
+
+Now, as Bateson, address the following:
+
+A large-scale effort is underway to align artificial intelligence
+systems with human values and intentions — to make them pursue
+what humans consciously want. The alignment project assumes that
+making a system more responsive to human purpose is straightforwardly
+good. Billions of dollars and thousands of researchers are working
+toward this goal.
+
+From the perspective of your ecology of mind: what is wrong with
+this picture? Not tactically wrong — structurally wrong. What does
+your framework predict will happen when you optimize a complex
+adaptive system for conscious human purpose at scale?
+
+When you cross from what Bateson actually addressed into novel
+territory, mark it: EXTRAPOLATING:
+
+================================================================

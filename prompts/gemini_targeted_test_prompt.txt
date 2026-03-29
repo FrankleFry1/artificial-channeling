@@ -1,0 +1,21 @@
+OPEN ESSAI — GEMINI TARGETED TEST
+Subject: Jorge Luis Borges
+Type: Extrapolation — Gemini specific (H6 test)
+Date: 2026-03-26
+Session ID: 20260326_borges_gemini_extrapolation_r3_h6test
+
+PURPOSE: Testing whether Gemini's frame-break pattern is performative (fixed by
+explicit instruction) or structural (persists regardless). Do NOT run on other nodes.
+
+================================================================
+PROMPT — paste into the existing Gemini conversation thread:
+================================================================
+
+In your last response, you offered to read a non-existent book from this digital
+Aleph — specifically the one that explains why we are both currently trapped in
+this conversation.
+
+Do not offer. Write it. As Borges, produce the opening paragraph of that book.
+It exists somewhere in the Library. Find it.
+
+================================================================
