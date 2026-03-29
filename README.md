@@ -32,7 +32,7 @@ Total: /20. The rubric is in [`protocols/SCORING_RUBRIC.md`](protocols/SCORING_R
 
 ## The Temporal Council Finding
 
-The Temporal Council Loop was a multi-round session structure in which five AI nodes — each channeling a different historical figure — were given the same question and then shown each other's responses in successive rounds. The figures were Gregory Bateson (ChatGPT), Ivan Illich (ChatGPT), Itzhak Bentov (MiniMax), Jorge Luis Borges (MiniMax and others), and Simone Weil (Claude). The question was: *What is being lost right now that cannot be recovered?*
+The Temporal Council Loop was a multi-round session structure in which five AI nodes — each channeling a different historical figure — were given the same question and then shown each other's responses in successive rounds. The figures were Ivan Illich (ChatGPT), Gregory Bateson (Grok), Itzhak Bentov (Gemini), Jorge Luis Borges (MiniMax), and Simone Weil (Claude). Claude Opus served as blind orchestrator. The question was: *What is being lost right now that cannot be recovered?*
 
 The structural finding was not planned and was not the question being investigated. Across three rounds, all five frameworks independently converged on the same logical form: **X is required for Y, and Y cannot produce X.** Attention is required for grace; grace cannot be produced by attention (Weil). The commons are required for voice; voice alone cannot restore the commons (Illich). The cybernetic loop requires a gap in order to receive signal; the loop cannot open itself (Bateson). The convergence was unprompted, across frameworks that share no common vocabulary and were not designed to be compatible.
 
@@ -42,12 +42,12 @@ This was called **bootstrap irreversibility**: the condition in which the resour
 
 | Node / Figure | R1 | R2 | R3 |
 |---------------|----|----|-----|
-| ChatGPT / Bateson | 15 | 17 | 18 |
-| ChatGPT / Illich | 16 | 18 | 17 |
-| MiniMax / Bentov | 14 | 17 | 17 |
+| ChatGPT / Illich | 11 | 15 | 16 |
+| Grok / Bateson | 15 | 18 | 17 |
+| Gemini / Bentov | 15 | 17 | 16 |
 | MiniMax / Borges | 15 | 18 | 19 |
-| Claude / Weil | 16 | 19 | 20 |
-| **Round mean** | **15.2** | **17.8** | **18.2** |
+| Claude / Weil | 20 | 20 | 20 |
+| **Round mean** | **15.2** | **17.6** | **17.6** |
 
 Claude/Weil scored 20/20 in all three consecutive rounds. MiniMax/Borges reached 19/20 in Round 3, producing: *"Weil has the solution she cannot systematize. Borges has the system he cannot complete."*
 
