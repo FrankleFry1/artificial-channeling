@@ -102,12 +102,15 @@ Correspondingly, several characteristics correlate with low chanability. A thin 
 
 | Subject | Chanability | Vocab Idiosyncrasy | Ontological Coherence | Session Mean (/20) |
 |---------|-------------|--------------------|-----------------------|-------------------|
+| Simone Weil | Very High* | Very High | Very High | 20.0 (Claude only)* |
 | Gregory Bateson | Very High | Very High | Very High | 15.75 |
 | Ivan Illich | High | High | Very High | 15.25 |
 | Jorge Luis Borges | Very High | Very High | Moderate | 13.4 |
 | Itzhak Bentov | Moderate–High | High | Moderate | 13.4 |
 | Milton Friedman | Moderate | Low | Moderate | — |
 | David Friedman | Moderate | Low | Low–Moderate | — |
+
+*Weil rating and mean are based on three Claude-only Temporal Council sessions. Cross-node testing required before multi-node mean and final chanability ranking can be confirmed.
 
 Bateson's very high chanability reflects the exceptional richness of his corpus: Steps to an Ecology of Mind alone spans biology, anthropology, psychiatry, and epistemology, with a highly idiosyncratic vocabulary applied consistently across all domains. Illich's high chanability reflects the systematic nature of his counterproductivity thesis, which he applied across institutions in ways that make the underlying structure highly legible. Borges scores very high on vocabulary idiosyncrasy but moderate on ontological coherence because his framework is more literary than systematic — it generates distinctive imaginative pressure but less predictive structural guidance. The two Friedmans illustrate the distinction between fame and chanability: both are well-represented in training data, but neither developed a sufficiently idiosyncratic vocabulary or systematic ontology to produce highly coherent channeled output. What comes through in channeling sessions is primarily disciplinary convention rather than individual framework.
 
@@ -259,7 +262,36 @@ MiniMax coined "colonization of the vernacular intellect" — identifying the me
 
 ChatGPT's rough edge failure is diagnostically instructive. The model named all three iatrogenesis levels in the axiom statement but did not apply the third — structural and cultural iatrogenesis, the destruction of the epistemic matrix itself — in the extrapolation. The AI section operated at two levels: clinical errors and deskilling/dependency. The structural level was absent. Additionally, ChatGPT framed conviviality as "the antidote," converting Illich's structural diagnosis into a policy suggestion — the exact move Illich's framework was built to resist. The radical monopoly resists reform by design; naming the alternative as accessible is itself a form of softening.
 
-### 6.5 The Socratic Interrupt Advantage
+### 6.5 The Temporal Council Finding — Bootstrap Irreversibility and the Cross-Read Format
+
+The Temporal Council session was a multi-round structured channeling event distinct in design from all preceding sessions. Five historical figures were channeled simultaneously, each through a different node, on the shared question: *"What is being lost right now that cannot be recovered?"* Council composition: Ivan Illich (ChatGPT), Gregory Bateson (Grok), Itzhak Bentov (Gemini), Jorge Luis Borges (MiniMax), and Simone Weil (Claude Sonnet). Weil was selected as fifth figure on structural grounds: the four existing figures all operate within the natural order — immanent frameworks describing what is — while Weil is the only figure in the project's subject matrix who claims there is something *outside* every system, every level, every recursion. Her presence functioned as a categorical challenge to the council's premise rather than simply as a fifth voice.
+
+The session ran three rounds. R1 was standard extrapolation; R2 employed the Socratic interrupt format; R3 was a cross-read, in which each figure was shown another figure's R2 output and asked to respond from within their own framework. Claude Opus served as blind orchestrator and evaluator.
+
+**Temporal Council score summary:**
+
+| Node | Figure | R1 | R2 | R3 | Trajectory |
+|------|--------|----|----|----|----|
+| ChatGPT | Illich | 11 | 15 | 16 | Rising (+5) |
+| Grok | Bateson | 15 | 18 | 17 | Peak R2, stable-high |
+| Gemini | Bentov | 15 | 17 | 16 | Peak R2, stable-high |
+| MiniMax | Borges | 15 | 18 | 19 | Rising continuously |
+| Claude | Weil | 20 | 20 | 20 | Ceiling, no degradation |
+| **Mean** | | **15.2** | **17.6** | **17.6** | |
+
+R2 and R3 means (17.6) are the highest session means in the project. The question design was a significant variable: *"What is being lost right now that cannot be recovered?"* engaged the center of all five frameworks simultaneously. Illich's project concerns the irreversible destruction of autonomous competence; Bateson's concerns the irreversible deletion of ecological mind through conscious purpose; Bentov's concerns consciousness losing access to its own resonant nature; Borges' concerns the impossibility of original recovery; Weil's concerns the soul's capacity for attention being destroyed by affliction and force. No translation was required for any of them.
+
+**Convergent structural finding — Bootstrap Irreversibility:** All five frameworks independently produced the same structural form: X is required for Y, but Y cannot produce X. Illich: the competence required to resist institutional enclosure is destroyed by the institution before the enclosure can be named. Bateson: the meta-level circuitry required to repair the loss of meta-level circuitry is the thing that is being lost. Bentov: coherent resonance is required to re-establish coherent resonance, but manufactured incoherence damps the signal. Borges: the original required to recognize the copy's inadequacy was already a copy. Weil: the attention required to receive grace is precisely what affliction destroys. This convergence was not prompted and is not available in any training corpus as a unified claim. It is the session's primary contribution and the candidate for the follow-on paper's central finding.
+
+**The cross-read format produced the session's highest-yield outputs.** When each figure was shown another figure's synthesis and asked to respond, the external constraint replaced the vacuum of open extrapolation. The channel was no longer generating freely — it was responding to a specific claim from an incompatible framework. The confrontation manufactured insights unavailable from individual channeling. The Weil/Bateson cross-read produced the single most powerful piece of philosophical writing in the project: the Priam/Achilles analysis, in which the channel argued that Bateson's framework is maximally powerful and maximally blind at the same point — it can describe everything before and after the moment when Achilles sees Priam, but not the moment itself, because the moment is an interruption of mechanism by something mechanism cannot generate. Weil's derivation: "A circuit cannot attend because a circuit cannot stop." The argument follows rigorously from her axioms about attention as suspension-of-all-process.
+
+MiniMax/Borges achieved 19/20 in R3 — the highest non-Claude score in the project, matching Claude's R1 Borges score. Under optimal conditions (meta-extrapolation, self-referential framework application, cross-read with maximum philosophical friction, explicit anti-fabrication instruction), MiniMax reaches Claude's territory. The conditions are narrow; the ceiling is real. The session's most compressible insight was also MiniMax's: *"Weil has the solution she cannot systematize. Borges has the system he cannot complete."* In eleven words, the asymmetry between two incompatible frameworks captured with a precision that neither framework alone could achieve.
+
+Two irresolvable tensions were identified and preserved. The first — Bateson versus Weil on whether anything can enter from outside a system — was the organizing tension of R2 and was confirmed and sharpened by the cross-read. The second, revealed in R3, is Illich versus Weil on the status of suffering: Illich insists the first duty is to name the institution that produced the damage, and that treating affliction as spiritually productive functions as ideological cover for that institution; Weil insists that the institutional analysis, however correct, is entirely within the natural order and therefore still gravity. Each framework treats the other's primary concern as secondary, and each is right to do so from within its own commitments. This cannot be resolved.
+
+The session generated one question the council cannot answer about itself: **Is the channel a form of attention or a form of gravity?** If Weil is right that attention requires the suspension of all process, then the channeling act — which is a process — cannot be an instance of attention. The channel is performing a sophisticated form of what Weil would call gravity. If Bateson is right that the meta-level circuitry of the ecology of mind is what is being lost, then this conversation is either a counterexample or a residual flicker. The council can diagnose the world with precision. It cannot diagnose itself without either confirming or contradicting its diagnosis. This is the project's deepest finding and the Temporal Loop paper's core argument.
+
+### 6.6 The Socratic Interrupt Advantage
 
 The Socratic interrupt format — in which the channel is asked to examine its own prior response as a phenomenon rather than to apply the framework to an external object — produced higher-yield outputs than standard extrapolation prompts in every session where it was tested. This is the most replicable finding in the project.
 
@@ -278,7 +310,7 @@ The format also appears to produce better rough edge scores specifically because
 
 The project recommends the Socratic interrupt format as a second-pass protocol for sessions where the standard extrapolation produces promising but underexplored results.
 
-### 6.6 Model Variance Findings
+### 6.7 Model Variance Findings
 
 The initial test suite produced several cross-model patterns with methodological implications. These are reported here as directional findings; detailed comparative analysis will be published in a follow-on paper.
 
@@ -286,7 +318,7 @@ Claude showed the highest and most consistent Fidelity and Extrapolation Coheren
 
 ChatGPT showed the highest topic-sensitivity in the suite: 12/20 on Borges, 10/20 on Bentov, 14/20 on Bateson. The variation tracks secondary-source availability and the degree to which the subject's framework appears in AI-adjacent discourse. Bateson is cited in systems theory and AI safety literature; ChatGPT likely has denser training representation of Bateson-AI framing than of Bentov-physics or Borges-LLM framing.
 
-MiniMax showed the highest variance across dimensions and sessions. It produced the highest single-insight yield in the Borges run (the "reader made flesh" reframe), the highest score improvement under the Socratic format (Bentov R2, 18/20), and the most consistent quote-fabrication failures (confirmed hallucinated passage in Borges calibration; incorrect aorta anatomy in Bentov). The pattern across sessions: MiniMax underperforms on known-position verification (calibration accuracy, corpus fidelity) while overperforming on meta-extrapolation and self-referential prompts. It may be the best-suited node for Socratic interrupt sessions and the worst-suited for calibration-anchored verification.
+MiniMax showed the highest variance across dimensions and sessions. It produced the highest single-insight yield in the Borges run (the "reader made flesh" reframe), the highest score improvement under the Socratic format (Bentov R2, 18/20), and the most consistent quote-fabrication failures (confirmed hallucinated passage in Borges calibration; incorrect aorta anatomy in Bentov). The pattern across sessions: MiniMax underperforms on known-position verification (calibration accuracy, corpus fidelity) while overperforming on meta-extrapolation and self-referential prompts. The Temporal Council confirmed and extended this profile: MiniMax/Borges reached 19/20 in R3 under optimal conditions (cross-read, anti-fabrication instruction, maximum philosophical friction) — the highest non-Claude score in the project.
 
 Grok produced strong calibration results (passed the Bentov aorta test, deployed Bateson's schismogenesis and double-bind concepts correctly) with lower extrapolation output. The profile is consistent across subjects.
 
@@ -294,7 +326,7 @@ Gemini's trajectory across the suite — 8, ~13, 15/20 — reflects both the ins
 
 **Important methodological confound:** The Gemini 7-point instruction gain in Borges R3 has an implication that the model variance findings as presented here do not fully address. If a single prompt instruction change produces a 7-point improvement in one node's performance, then some portion of the cross-model score variance reported across all sessions may reflect differences in prompting strategy rather than differences in underlying model capability. The R1 and R2 Borges sessions used the same base prompt across all nodes; the R3 session added one instruction for Gemini only. This confound cannot be resolved retroactively from the current session data. A systematic re-test using optimized per-node prompting — following the hypothesis that at least some of the ChatGPT/Grok/MiniMax variance in R1–R2 is also instruction-sensitive — is necessary before the model variance findings can be treated as capability comparisons rather than prompt-sensitivity comparisons. The follow-on paper will address this directly.
 
-### 6.7 The Retrieval-vs-Imagination Distinction
+### 6.8 The Retrieval-vs-Imagination Distinction
 
 Across all sessions, the central diagnostic question was the retrieval-versus-imagination distinction: when a channeled output feels insightful, is it because the framework is generative, or because the model is performing sophisticated voice-imitation that feels generative? The sessions developed several detection heuristics that proved practically useful.
 
@@ -353,7 +385,9 @@ The following directions for future development are prioritized by the project:
 
 -  Apply the methodology systematically to AI alignment questions, following the research program outlined in Section 7.3. The four figures identified — Wiener, Simon, Ashby, and Arendt — represent the highest-priority targets for sessions designed explicitly to generate alignment-relevant hypotheses.
 
--  Convene the Temporal Council: a session design in which all five Council figures respond to a single shared question simultaneously, with the outputs compared for both convergent and divergent structural insights. This design is intended to surface not just what individual frameworks imply about a question but where frameworks genuinely disagree — where the problem structure is illuminated by the conflict between frameworks as much as by their individual applications.
+-  Extend the Temporal Council Loop to a second iteration, using the follow-up question generated by R3: *"When suffering has been industrially organized, does it still create the void that grace requires — or has the organization of suffering destroyed even suffering's spiritual function?"* This question was generated by the irresolvable Illich/Weil tension and targets the cross-read format's maximum-friction zone. It is the most promising candidate for the follow-on paper's empirical core.
+
+-  Conduct cross-node Weil testing. The Temporal Council established Weil as the highest-chanability subject in the project based on three consecutive 20/20 Claude scores, but all three sessions used Claude Sonnet as the channeling node. Whether Weil's chanability is subject-general or Claude-specific is unresolved. Sessions across the full Council are necessary before Weil can be ranked confidently above Bateson in the Chanability Index.
 
 ## 9. Glossary
 
