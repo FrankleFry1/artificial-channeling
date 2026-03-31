@@ -209,7 +209,7 @@ The session's last word as council output: *Sometimes.*
 | `docs/gap_report.md` | Full repo audit |
 | `docs/launch/` | X thread, LinkedIn post (LessWrong post deprioritized) |
 
-Note: `CHANABILITY_INDEX.md` and `QUESTION_TYPES.md` do not currently exist as standalone files.
+Note: `CHANABILITY_INDEX.md` and `IDEA_BANK.md` now exist as standalone files at the repo root. `QUESTION_TYPES.md` does not yet exist.
 
 **arXiv:** Blocked on cs.CL endorsement. Murray Shanahan (Imperial/DeepMind) declined — blanket policy, not a judgment on the paper. Active path: r/MachineLearning endorser post.
 
