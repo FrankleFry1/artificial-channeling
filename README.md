@@ -77,6 +77,9 @@ Claude/Weil scored 20/20 in all three consecutive rounds. MiniMax/Borges reached
 ```
 artificial-channeling/
 │
+├── CHANABILITY_INDEX.md       ← Comprehensive figure reference for loop design: tier criteria, validated scores, candidate figures, domain assessments, model-framework matching
+├── IDEA_BANK.md               ← Living registry of methodology, loop design, and figure ideas with Active/Parked/Superseded status
+│
 ├── paper/
 │   ├── manuscript.md              ← Full paper text (renders on GitHub)
 │   └── manuscript_v1.pdf          ← Formatted version
