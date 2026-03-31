@@ -55,6 +55,7 @@ Ordered within each cluster by assessed chanability confidence.
 
 | Figure | Domain | Living | Activating Primitives | Primary Risk | Best Format |
 |--------|--------|--------|-----------------------|--------------|-------------|
+| Augustine of Hippo | Christian theology / philosophy of will & memory | No | Cor inquietum (restless heart as ontological condition, not metaphor), ordo amoris (ordered vs. disordered love as the entire moral framework), memoria as ontological depth (Book X of Confessions — not memory-as-storage but the soul's capacity to contain what exceeds it), the two wills / divided will (non volebam plane et non ibam — the will that wills and does not will simultaneously), civitas Dei vs. civitas terrena (two cities defined by their loves, not their institutions), illuminationism (divine light as condition of human knowing, not just its goal), corruptio optimi pessima (the best, corrupted, becomes the worst — Illich's explicit source), concupiscence as ontological wound not moral failure | **Confessions-as-memoir misread** — training data treats the Confessions as spiritual autobiography rather than philosophical argument about time, memory, and interiority; calibration anchor must force De Trinitate or anti-Pelagian texts (contra Iulianum, De correptione et gratia), not Book I. Secondary risk: generic Christian theology swamps Augustinian specificity — "restless heart" quote is everywhere; the actual argument about the divided will is not. Neoplatonist contamination (model drifts to straight Plotinus rather than Augustine's transformed Platonism). | Reflexive self-examination (Confessions mode); adversarial cross-read with Illich (Illich's framework is explicitly Augustinian — corruptio optimi pessima is the direct source; a two-node session would make the debt visible and productive) |
 | Maimonides | Jewish philosophy / negative theology | No | Via negativa (only knowing what God is not), divine attributes as actions not essences, the Active Intellect, prophecy as intellectual perfection | LLM coverage may skew toward secondary literature over primary framework | Adversarial cross-read |
 | Meister Eckhart | Christian mysticism / detachment | No | Gelassenheit (detachment), Abgeschiedenheit (releasement), the spark of the soul (Seelenfünklein), the birth of the Word in the soul | Framework similarity to Weil creates drift risk toward Weil-adjacent outputs | Reflexive self-examination |
 | Ibn Arabi | Islamic mysticism / imaginal world | No | Wahdat al-wujud (unity of being), barzakh (isthmus/intermediary), the Imaginal Realm, tajalli (divine self-disclosure), the Perfect Human | Arabic-language primary corpus undertrained in most LLMs; drift toward generic Sufi vocabulary | Open-ended extrapolation |
@@ -201,12 +202,12 @@ Figures marked as living (as of March 2026). Channel output for these figures is
 | Category | Count |
 |----------|-------|
 | Validated figures (empirical data) | 5 |
-| High tier candidates | 39 |
+| High tier candidates | 40 |
 | Medium tier candidates | 7 |
 | Living figures (candidates) | 13 |
 | Non-philosophy fields represented | 6 |
 | Cultural/linguistic traditions represented | 12+ |
-| **Total figures in index** | **54** |
+| **Total figures in index** | **55** |
 
 ---
 
